@@ -9,7 +9,7 @@ describe 'gpgtools' do
 
   it do
     should contain_package('gpgtools').with({
-      :source   => 'https://github.com/downloads/GPGTools/GPGTools/GPGTools-20120318.dmg',
+      :source   => 'https://github.com/downloads/GPGTools/GPGTools/GPGTools-20120520.dmg',
       :provider => 'appdmg'
     })
   end
